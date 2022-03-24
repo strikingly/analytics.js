@@ -22,6 +22,14 @@ This repository houses a pre-built, open-source version of analytics.js. The cor
 
 If you're not sure where to open an issue, feel free to open an issue against this repository or email <friends@segment.com> and we'll help point you in the right direction.
 
+## Custom Build
+
+To build a custom version, modify the integration in `lib/integration.js`. Currently the full list has been commented out, you can remove the comment to bring them back. Make sure to also add the depedencies in `package.json`. The full list of dependencies are available in `package.full.json`.
+
+```
+make build
+```
+
 ## License
 
 Released under the [MIT license].
